@@ -5,7 +5,7 @@ pipeline {
         
         stage('Git package') {
             when {
-                branch 'main'
+                branch 'develop'
             }
             steps {
                 sh 'mvn clean package'
