@@ -3,10 +3,10 @@ name: Java CI pipeline
 
 # 1. when should run the workflow
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+  #push:
+   # branches: [ main ]
+  #pull_request:
+   # branches: [ main ]
   workflow_dispatch:
 
 # 2. what permissions are required to run the workflow
