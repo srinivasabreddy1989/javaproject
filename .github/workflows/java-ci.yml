@@ -18,7 +18,7 @@ jobs:
   build:
     # 4. Which machine will run this job?
     name: Build and Test
-    runs-on: Ubuntu 26
+    runs-on: Ubuntu-latest
 
     # 5. What operations should the job perform?
     steps:
